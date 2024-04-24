@@ -1,1 +1,1 @@
-# litecode-🫡
+# littlecode-🫡
