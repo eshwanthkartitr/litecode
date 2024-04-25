@@ -1,24 +1,45 @@
 class Solution {
 public:
+    bool is_suits(vector<char>&suits)
+    {
+        return suits[0]==suits[ suits.size()-1 ];
+    }
+    bool three_kind(vector<int>&ranks)
+    {
+        for(int i=2;i<ranks.size();i++)
+        {
+            if(ranks[i]==ranks[i-1]&&ranks[i-1]==ranks[i-2])
+                return true;
+        }
+        return false;
+    }
+    bool two_kind(vector<int>&ranks)
+    {
+        for(int i=1;i<ranks.size();i++)
+        {
+            if(ranks[i]==ranks[i-1])
+                return true;
+        }
+        return false;
+    }
     string bestHand(vector<int>& ranks, vector<char>& suits) {
-        if(suits[0] == suits[1] && suits[2] == suits[1] && suits[3] == suits[2] && suits[4] == suits[2]) return "Flush";
         sort(ranks.begin(),ranks.end());
-        unordered_map<int,int> q;
-        for(auto num:ranks){
-            q[num]++;
+        sort(suits.begin(),suits.end());
+        if(is_suits(suits))
+        {
+            return "Flush";
         }
-        for(int i=0;i<ranks.size();i++){
-            if(q[ranks[i]] >= 3){
-                return "Three of a Kind";
-            }
+        else if(three_kind(ranks))
+        {
+            return "Three of a Kind";
         }
-        for(int i=0;i<ranks.size();i++){
-            if(q[ranks[i]] ==2){
-                return "Pair";
-            }
+        else if (two_kind(ranks))
+        {
+            return "Pair";
         }
-
-        return "High Card";
-
+        else
+        {
+            return "High Card";
+        }
     }
 };
