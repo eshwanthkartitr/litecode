@@ -5,13 +5,12 @@ public:
         for (int n : nums) {
             finalxor = finalxor ^ n;
         }
+        finalxor = finalxor^k;
         int count = 0;
-        while(k||finalxor){
-            if((k%2) != (finalxor%2)){
+        while(finalxor > 0){
+            if(finalxor&1){
                 count++;
             }
-            cout << finalxor;
-            k/=2;
             finalxor/=2;
         }
         return count;
