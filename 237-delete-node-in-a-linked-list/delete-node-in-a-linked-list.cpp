@@ -14,11 +14,12 @@ public:
         /**node->val = node->next->val;
         node->next = node->next->next;**/
         /*Top solution*/
-        node->val=(node->next)->val;
+        /**node->val=(node->next)->val;
         while((node->next)->next!=NULL){
             (node->next)->val=((node->next)->next)->val;
             node=node->next;
         }
-        node->next=NULL;
+        node->next=NULL;**/
+        *(node) = *(node->next);
     }
 };
