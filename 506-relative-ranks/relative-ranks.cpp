@@ -3,12 +3,15 @@ public:
     vector<string> findRelativeRanks(vector<int>& score) {
         vector<int> sortedScore = score;
         sort(sortedScore.begin(), sortedScore.end(), greater<int>());
-        vector<string> medals = {"Gold Medal", "Silver Medal", "Bronze Medal"};
         unordered_map<int, string> rankMapping;
         for (int i = 0; i < sortedScore.size(); i++) {
-            if (i < 3) {
-                rankMapping[sortedScore[i]] = medals[i];
-            } else {
+            if (i == 0) {
+                rankMapping[sortedScore[i]] = "Gold Medal";
+            } else if(i == 1){
+                rankMapping[sortedScore[i]] = "Silver Medal";
+            }else if(i==2){
+                rankMapping[sortedScore[i]] = "Bronze Medal";
+            }else {
                 rankMapping[sortedScore[i]] = to_string(i + 1);
             }
         }
