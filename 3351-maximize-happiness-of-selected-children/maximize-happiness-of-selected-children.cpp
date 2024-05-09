@@ -1,9 +1,4 @@
 class Solution {
-private:
-    bool zero_checker(const vector<int>& example) {
-        return find(example.begin(), example.end(), 0) == example.end();
-    }
-
 public:
     long long maximumHappinessSum(vector<int>& happiness, int k) {
         long long answer = 0;
