@@ -13,7 +13,7 @@ class Solution:
                 for dx, dy in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
                     dfs(i + dx, j + dy, cur_gold, visited)
 
-                visited.remove((i, j))  # Backtrack and reset cur_gold
+                visited.remove((i, j))
 
         for i in range(m):
             for j in range(n):
