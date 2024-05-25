@@ -14,7 +14,7 @@ class Solution:
         # backtrack(0)
         # return re
         # with memo
-        memo = defaultdict(list)
+        wordDict=set(wordDict)
         re=[]
         cur=[]
         def backtrack(i):
