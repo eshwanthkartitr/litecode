@@ -1,5 +1,6 @@
 class Solution:
     def specialArray(self, nums: List[int]) -> int:
+        nums.sort()
         res=-1
         for x in range(len(nums)+1):
             cout=0
