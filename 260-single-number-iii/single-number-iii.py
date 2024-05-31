@@ -1,8 +1,15 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> List[int]:
-        re=[]
+        re=0
         for i in nums:
-            if nums.count(i) == 1:
-                re.append(i)
-        return re
-        
+            re^=i        
+        diff=1
+        while not(re & diff):
+            diff <<=1
+        a,b=0,0
+        for i in nums:
+            if diff & i:
+                a = a^i
+            else:
+                b=b^i
+        return [a,b]
