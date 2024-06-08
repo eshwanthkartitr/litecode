@@ -1,6 +1,6 @@
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
-        remainder_dict = {0: -1}  # to handle the case where the subarray starts from index 0
+        remainder_dict = {0: -1}
         cumulative_sum = 0
 
         for i, num in enumerate(nums):
