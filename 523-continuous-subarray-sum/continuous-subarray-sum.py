@@ -1,16 +1,12 @@
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
-        remainder_dict = {0: -1}
-        cumulative_sum = 0
-
-        for i, num in enumerate(nums):
-            cumulative_sum += num
-            remainder = cumulative_sum % k
-
-            if remainder in remainder_dict:
-                if i - remainder_dict[remainder] > 1:
+        rem={0:-1}
+        su=0
+        for i,num in enumerate(nums):
+            su += num
+            if su % k in rem: 
+                if i - rem[su%k] >=2:
                     return True
             else:
-                remainder_dict[remainder] = i
-
+                rem[su%k]=i
         return False
