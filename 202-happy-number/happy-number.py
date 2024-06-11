@@ -9,6 +9,6 @@ class Solution:
             l=list(map(int, str(tmp)))
             m+=1
             print(l)
-            if l!=1 and m > 10:
+            if l!=1 and m > 7:
                 return False
         return True
