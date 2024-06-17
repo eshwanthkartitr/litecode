@@ -1,10 +1,10 @@
 import math
-
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
-        for i in range(int(math.sqrt(c)) + 1):
-            b_squared = c - i * i
-            b = int(math.sqrt(b_squared))
-            if b * b == b_squared:
-                return True
+        for i in range(int(math.sqrt(c))+1):
+            try:
+                if i*i + int(math.sqrt(c-(i*i)))*int(math.sqrt(c-(i*i))) == c:
+                    return True
+            except:
+                continue
         return False
