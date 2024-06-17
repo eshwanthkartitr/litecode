@@ -11,6 +11,6 @@ class Solution:
         tmp = root.left
         root.left=root.right
         root.right=tmp
-        root.left = self.invertTree(root.left)
-        root.right = self.invertTree(root.right)
+        self.invertTree(root.left)
+        self.invertTree(root.right)
         return root
