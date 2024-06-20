@@ -4,7 +4,7 @@ class Solution:
         n = len(position)
         
         def can_place(distance):
-            count = 1  # Start with the first element placed
+            count = 1  
             last_position = position[0]
             
             for i in range(1, n):
