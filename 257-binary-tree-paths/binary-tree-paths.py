@@ -13,8 +13,7 @@ class Solution:
                 re.append(usb)
                 return 
             else:
-                usb +=f'{root.val}'
-                usb += '->'
+                usb +=f'{root.val}->'
                 if root.left:
                     dfs(root.left,usb)
                 if root.right:
