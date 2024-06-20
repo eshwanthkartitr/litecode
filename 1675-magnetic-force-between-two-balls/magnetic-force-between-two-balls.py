@@ -20,7 +20,7 @@ class Solution:
         best_distance = 0
         
         while lo <= hi:
-            mid = (lo + hi) // 2
+            mid = (lo + hi) >> 1
             if can_place(mid):
                 best_distance = mid
                 lo = mid + 1
