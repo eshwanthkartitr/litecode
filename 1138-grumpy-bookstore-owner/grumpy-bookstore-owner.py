@@ -1,16 +1,18 @@
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
-        su=0
+        left = 0
+        right = minutes - 1
+        candidate = 0
         for i in range(len(customers)):
-            if grumpy[i] != 1:
-                su+=customers[i]
-        wind = minutes
-        ma=0
-        for i in range(len(customers)-wind+1):
-            tmp=0
-            for j in range(wind):
-                if grumpy[i+j] == 1:
-                    tmp+=customers[i+j]
-            
-            ma=max(ma,tmp)
-        return ma+su
+            candidate += customers[i]*abs(grumpy[i] - 1)
+        for i in range(left, right+1):
+            candidate += customers[i]*grumpy[i]
+        ans = candidate
+        while right < len(customers) - 1:
+            candidate += customers[right+1]*grumpy[right+1]
+            candidate -= customers[left]*grumpy[left]
+            if candidate > ans:
+                ans = candidate
+            left += 1
+            right += 1
+        return ans
