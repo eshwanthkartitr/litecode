@@ -25,9 +25,7 @@ class Solution:
                 return None
             return x
         tmp = postorder(root,re,to_delete)
-        re=re[::-1]
         re.append(tmp)
-        re=re[::-1]
         while None in re:
             re.remove(None)
         return re
