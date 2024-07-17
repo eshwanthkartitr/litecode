@@ -28,5 +28,7 @@ class Solution:
         re=re[::-1]
         re.append(tmp)
         re=re[::-1]
+        while None in re:
+            re.remove(None)
         return re
             
