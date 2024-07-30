@@ -11,12 +11,12 @@ class Solution:
             nonlocal gb_val
             if root is None:
                 return 0
-            print(root.val)
+
             if root.left is None and root.right is None:
                 return 1
             left_val = dfs(root.left)
             right_val = dfs(root.right)
             gb_val = max(gb_val,left_val+right_val)
             return max(left_val,right_val)+1
-        print(dfs(root))
+
         return gb_val
