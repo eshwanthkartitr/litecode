@@ -3,10 +3,19 @@ class KthLargest:
     def __init__(self, k: int, nums: List[int]):
         self.li=nums
         self.k=k
+        self.li.sort()
 
     def add(self, val: int) -> int:
-        self.li.append(val)
-        self.li.sort()
+        re=[]
+        fl=1
+        for i in range(len(self.li)):
+            if self.li[i]>val:
+                re = self.li[:i]+[val]+self.li[i:]
+                fl=0
+                break
+        if fl == 1:
+            re = self.li+[val]
+        self.li=re
         return self.li[-self.k]
 
 
