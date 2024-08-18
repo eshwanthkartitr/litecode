@@ -7,5 +7,4 @@ class Solution:
             for j in [2,3,5]:
                 if val*j not in arr:
                     arr.append(val*j)
-        print(arr)
         return min(arr) 
