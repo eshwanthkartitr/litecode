@@ -1,13 +1,13 @@
 class Solution:
     def winnerSquareGame(self, n: int) -> bool:
+        @cache
         def helper(i):
-            if i == n:
+            if i == 0:
                 return False
-            hi = False
-            for j in range(1,n):
-                if i+j*j>n:
+            for j in range(1,int(i**0.5)+1):
+                if i-j*j<0:
                     break
-                if not helper(i+j*j):
-                    hi=True
-            return hi
-        return helper(0)
+                if not helper(i-j*j):
+                    return True
+            return False
+        return helper(n)
