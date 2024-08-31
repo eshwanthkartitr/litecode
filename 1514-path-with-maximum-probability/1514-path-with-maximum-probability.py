@@ -2,21 +2,21 @@ import heapq
 class Solution:
     def maxProbability(self, n: int, edges: List[List[int]], succProb: List[float], start_node: int, end_node: int) -> float:
         mp=defaultdict(list)
-        for idx, (u, v) in enumerate(edges):
-            mp[u].append([v, succProb[idx]])
-            mp[v].append([u, succProb[idx]])
+        for i,(j,k) in enumerate(edges):
+            mp[j].append((k,succProb[i]))
+            mp[k].append((j,succProb[i]))
         q=[(-1,start_node)]
+        heapify(q)
         visited=set()
-        mn=0
         while q:
-            prob,curr = heapq.heappop(q)
-            prob=-prob
-            if curr in visited:
+            print(q)
+            prob,node = heapq.heappop(q)
+            prob = -prob
+            if node in visited:
                 continue
-            visited.add(curr)
-            if curr==end_node:
+            visited.add(node)
+            if node == end_node:
                 return prob
-            for i in mp[curr]:
-                if i[0] not in visited:
-                    heapq.heappush(q,(-(i[1]*prob),i[0]))
+            for j,k in mp[node]:
+                heapq.heappush(q,(-k*prob,j))
         return 0.0
