@@ -7,12 +7,12 @@ class Solution:
             if arr[mid]==target:
                 return mid
             if arr[left]<=arr[mid]:
-                if arr[left]<=target and target<arr[mid]:
+                if arr[left]<=target<arr[mid]:
                     right=mid-1
                 else:
                     left=mid+1
             else:
-                if arr[right]>=target and target>arr[mid]:
+                if arr[mid]<target<=arr[right]:
                     left=mid+1
                 else:
                     right=mid-1
