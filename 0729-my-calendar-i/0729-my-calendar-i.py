@@ -9,7 +9,7 @@ class MyCalendar:
             return True
         else:
             for i in self.re:
-                if i[1] > start and end>i[0]:
+                if start < i[1] and end > i[0]:
                     return False
             self.re.append((start,end))
             print((start,end))
