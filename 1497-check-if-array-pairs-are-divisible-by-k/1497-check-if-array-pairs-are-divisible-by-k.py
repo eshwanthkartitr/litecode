@@ -4,7 +4,6 @@ class Solution:
         arr_dict=defaultdict(int)
         for i in range(len(arr)):
             arr_dict[((arr[i]+k)+k)%k]+=1
-        print(arr_dict)
         for i in range(k-1):
             if i ==0:
                 if arr_dict[i]%2!=0:
