@@ -7,17 +7,17 @@
 class FindElements:
 
     def __init__(self, root: Optional[TreeNode]):
-        self.re=set([0])
+        self.re={0:1}
         root.val=0
         tmp = [root]
         while tmp:
             curr = tmp.pop()
             if curr.left is not None:
-                self.re.add(2*curr.val+1)
+                self.re[2*curr.val+1]=1
                 curr.left.val = 2*curr.val+1
                 tmp.append(curr.left)
             if curr.right is not None:
-                self.re.add(2*curr.val+2)
+                self.re[2*curr.val+2]=1
                 curr.right.val = 2*curr.val+2
                 tmp.append(curr.right)
         
@@ -25,7 +25,10 @@ class FindElements:
 
 
     def find(self, target: int) -> bool:
-        return target in self.re
+        if target in self.re:
+            return True
+        else:
+            return False
         
 
 
