@@ -9,19 +9,3 @@
 
 
 </div>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0934-bitwise-ors-of-subarrays](https://github.com/eshwanthkartitr/litecode/tree/master/0934-bitwise-ors-of-subarrays) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0934-bitwise-ors-of-subarrays](https://github.com/eshwanthkartitr/litecode/tree/master/0934-bitwise-ors-of-subarrays) |
-## Bit Manipulation
-|  |
-| ------- |
-| [0934-bitwise-ors-of-subarrays](https://github.com/eshwanthkartitr/litecode/tree/master/0934-bitwise-ors-of-subarrays) |
-<!---LeetCode Topics End-->
