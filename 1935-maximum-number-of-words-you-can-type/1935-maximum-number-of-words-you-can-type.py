@@ -1,12 +1,13 @@
 class Solution:
     def canBeTypedWords(self, text: str, brokenLetters: str) -> int:
         words = text.split(" ")
-        tmp = [1] * len(words)
+        cnt = 0
         n = len(words)
         for i in range(n):
-            for m in brokenLetters:
-                if m in words[i]:
-                    tmp[i] = 0
+            for m in words[i]:
+                if m in brokenLetters:
+                    cnt+=1
+                    break
         
 
-        return sum(tmp)
+        return n - cnt
