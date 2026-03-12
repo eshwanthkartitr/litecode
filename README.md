@@ -9,3 +9,27 @@
 
 
 </div>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/eshwanthkartitr/litecode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/eshwanthkartitr/litecode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/eshwanthkartitr/litecode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/eshwanthkartitr/litecode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/eshwanthkartitr/litecode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
+<!---LeetCode Topics End-->
