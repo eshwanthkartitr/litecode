@@ -32,4 +32,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/eshwanthkartitr/litecode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/eshwanthkartitr/litecode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/eshwanthkartitr/litecode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/eshwanthkartitr/litecode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 <!---LeetCode Topics End-->
