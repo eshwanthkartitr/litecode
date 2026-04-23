@@ -16,6 +16,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/eshwanthkartitr/litecode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
+| [2615-sum-of-distances](https://github.com/eshwanthkartitr/litecode/tree/main/2615-sum-of-distances/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -36,6 +37,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/eshwanthkartitr/litecode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [2615-sum-of-distances](https://github.com/eshwanthkartitr/litecode/tree/main/2615-sum-of-distances/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -44,4 +46,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/eshwanthkartitr/litecode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2615-sum-of-distances](https://github.com/eshwanthkartitr/litecode/tree/main/2615-sum-of-distances/) | Medium |
 <!---LeetCode Topics End-->
