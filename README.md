@@ -39,6 +39,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/eshwanthkartitr/litecode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
+| [1861-rotating-the-box](https://github.com/eshwanthkartitr/litecode/tree/main/1861-rotating-the-box/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/eshwanthkartitr/litecode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2615-sum-of-distances](https://github.com/eshwanthkartitr/litecode/tree/main/2615-sum-of-distances/) | Medium |
 ## String
@@ -61,4 +62,9 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/eshwanthkartitr/litecode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
+| [1861-rotating-the-box](https://github.com/eshwanthkartitr/litecode/tree/main/1861-rotating-the-box/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1861-rotating-the-box](https://github.com/eshwanthkartitr/litecode/tree/main/1861-rotating-the-box/) | Medium |
 <!---LeetCode Topics End-->
