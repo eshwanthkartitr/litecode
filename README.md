@@ -38,6 +38,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1288-remove-covered-intervals](https://github.com/eshwanthkartitr/litecode/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/eshwanthkartitr/litecode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/eshwanthkartitr/litecode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1861-rotating-the-box](https://github.com/eshwanthkartitr/litecode/tree/main/1861-rotating-the-box/) | Medium |
@@ -75,5 +76,6 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1288-remove-covered-intervals](https://github.com/eshwanthkartitr/litecode/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/eshwanthkartitr/litecode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 <!---LeetCode Topics End-->
