@@ -78,4 +78,8 @@
 | ------- | ------- |
 | [1288-remove-covered-intervals](https://github.com/eshwanthkartitr/litecode/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/eshwanthkartitr/litecode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/eshwanthkartitr/litecode/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 <!---LeetCode Topics End-->
