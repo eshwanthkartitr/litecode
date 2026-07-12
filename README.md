@@ -15,6 +15,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1331-rank-transform-of-an-array](https://github.com/eshwanthkartitr/litecode/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/eshwanthkartitr/litecode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2615-sum-of-distances](https://github.com/eshwanthkartitr/litecode/tree/main/2615-sum-of-distances/) | Medium |
 ## Tree
@@ -39,6 +40,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1288-remove-covered-intervals](https://github.com/eshwanthkartitr/litecode/tree/main/1288-remove-covered-intervals/) | Medium |
+| [1331-rank-transform-of-an-array](https://github.com/eshwanthkartitr/litecode/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/eshwanthkartitr/litecode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/eshwanthkartitr/litecode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1861-rotating-the-box](https://github.com/eshwanthkartitr/litecode/tree/main/1861-rotating-the-box/) | Medium |
@@ -77,6 +79,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1288-remove-covered-intervals](https://github.com/eshwanthkartitr/litecode/tree/main/1288-remove-covered-intervals/) | Medium |
+| [1331-rank-transform-of-an-array](https://github.com/eshwanthkartitr/litecode/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/eshwanthkartitr/litecode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 ## Math
 | Problem Name | Difficulty |
