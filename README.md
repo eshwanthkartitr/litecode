@@ -46,6 +46,7 @@
 | [1861-rotating-the-box](https://github.com/eshwanthkartitr/litecode/tree/main/1861-rotating-the-box/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/eshwanthkartitr/litecode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2615-sum-of-distances](https://github.com/eshwanthkartitr/litecode/tree/main/2615-sum-of-distances/) | Medium |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/eshwanthkartitr/litecode/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -84,5 +85,10 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/eshwanthkartitr/litecode/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/eshwanthkartitr/litecode/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/eshwanthkartitr/litecode/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
 <!---LeetCode Topics End-->
